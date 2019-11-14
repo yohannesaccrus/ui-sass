@@ -5,6 +5,11 @@ const App = () => {
     <div className="app">
       <div className="app__overlay" />
       <div className="app__text">
+        <img
+          src={require("../../assets/img/coc.png")}
+          alt="logo"
+          className="app__logo"
+        />
         <h1 className="app__title">
           Let's have <span>Crush</span> on <span>Code</span>
         </h1>
@@ -15,19 +20,22 @@ const App = () => {
         <div className="app__socials">
           <a
             href="https://www.instagram.com/crushoncode/"
-            className="app__social"
+            className="app__social fadeIn"
           >
             <i className="fab fa-instagram" />
             <p>@crushoncode</p>
           </a>
           <a
             href="https://www.youtube.com/channel/UCmEkB9GWMPJ6H833W-gKMAw"
-            className="app__social"
+            className="app__social fadeIn"
           >
             <i className="fab fa-youtube" />
             <p>CrushOnCode</p>
           </a>
-          <a href="https://github.com/yohannesaccrus" className="app__social">
+          <a
+            href="https://github.com/yohannesaccrus"
+            className="app__social fadeIn"
+          >
             <i className="fab fa-github" />
             <p>yohannesaccrus</p>
           </a>
